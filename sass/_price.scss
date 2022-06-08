@@ -1,0 +1,39 @@
+
+.bg-price{
+    background-image: url(../images/bg-price.svg);
+    height: 559px;
+    width: 885px;
+    right:0;
+    top:0;
+    background-repeat: no-repeat;
+    z-index: -100;
+}
+@media(max-width:756px){
+    .main{
+        background-image: url(../images/bg-price.svg);
+        height: 495px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: -100;
+    }
+}
+.pt-92{
+    padding-top: 92px;
+}
+
+.fs-12{
+    font-size: 12px;
+}
+.pb-64{
+    padding-bottom: 64px;
+}
+.container4{
+    max-width: 909px;
+    margin: 0 auto;
+}
+@media(max-width:768px){
+    .pt-92{
+        padding-top: 48px;
+    }
+}
